@@ -1,0 +1,330 @@
+*{
+    font-family: Avenir, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ededed;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*Header & Footer */
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 15px #333;
+}
+header{
+    border-bottom: 2px solid #fff;
+}
+header h1{
+    color: white;
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer{
+    border-top: 2px solid #fff;
+    background-image: url("image/fond.jpg");
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color: #fff;
+}
+
+/* Section party*/
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section > div{
+    width: 90%;
+}
+section .photo img{
+    width: auto;
+    border-radius: 50px;
+    border: none;
+    border-bottom: 2px solid #333;
+    box-shadow: 0px 0px 10px #161515;
+}
+.prez{
+    border-bottom: 2px solid #ccc;
+}
+.prez a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color: #fff;
+    background-color: #EA0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    word-spacing: 1px;
+}
+.contact-flex img{
+    width: 30px;
+    word-spacing: 10px;
+}
+.contact-flex a:nth-child(1):hover{
+    background-color: rgb(41, 114, 209);
+    width: 35px;
+    border-radius: 10px;
+    border-bottom: solid 1px #000;
+}
+.contact-flex a:nth-child(2):hover{
+    background-color: #31eeeee1;
+    width: 35px;
+    border-radius: 10px;
+    border-bottom: solid 1px #000
+}
+.contact-flex a:nth-child(3):hover{
+    background-color: #ce3a3ae8;
+    width: 35px;
+    border-radius: 10px;
+    border-bottom: solid 1px #000
+}
+.contact-flex a:nth-child(4):hover{
+    background-color: #EA0;
+    width: 35px;
+    border-radius: 10px;
+    border-bottom: solid 1px #000
+}
+
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.exp-logo img{
+    
+    border-radius: 10px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size: 1.2rem;
+}
+.exp h4{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.camp{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.camp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color: gray;
+    border-bottom: 1px ridge grey;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c85{
+    width: 85%;
+    background-color: #8B8;
+}
+.c90{
+    width: 90%;
+    background-color: #4B8;
+}
+.c95{
+    width: 95%;
+    background-color: #4B8;
+}
+.c100{
+    width: 100%;
+    background-color: #4B8;
+    border-radius: 5px;
+}
+
+.camp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex: 0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.interet{
+    flex: 0 1 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.interet img{
+    width: 80%;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #555 ;
+}
+.interet:hover{
+    background-color: none;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #555;
+    border-radius: 10%;
+    box-shadow: 1px 1px 25px #555 ;
+
+}
+
+.Experience, .competence, .interete{
+    pointer-events: all;
+    opacity: 0;
+    display: none;
+}
+.hover{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    color: #000;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hover:hover{
+    background-color: #00000023;
+    color: white;
+    transition: 0.3s;
+}
+.hover:active{
+    background-color: white;
+    color: #000;
+    transition: 0.2s;
+}
+.show{
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.4s;
+    display: flex;
+}
+.showoff{
+    display: none;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+@media screen and (min-width: 980px) {
+    section{
+        width: 70%;
+        box-shadow: 0px 0px 10px #bbb;
+    }   
+    a:hover{
+        color: #EA0;
+    }
+    header h1{
+        width: 80%;
+    }
+    .prez, .contact{
+        flex: 0 0 45%;
+    }
+    .prez{
+        border-bottom: none;
+        border-right: 2px solid #ccc;
+        padding-right: 20px;
+        margin-left: auto;
+    }
+    .contact{
+        padding-left: 20px;
+        margin-right: auto;
+    }
+    .prez a{
+        border: 2px solid transparent;
+    }
+    .prez a:hover{
+        color: #f28835;
+        background-color: #fff;
+        border: 2px solid #f28835;
+        box-shadow: 0px 0px 20px #666;
+    }
+    .exp-logo{
+        flex: 0 0 10%;
+    }
+    .exp-info, .exp-desc{
+        flex: 0 0 85%;
+        margin-top: auto;
+    }
+    .interet{
+        flex: 0 1 25%;
+    }
+  
+
+}

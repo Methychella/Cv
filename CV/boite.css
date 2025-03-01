@@ -1,0 +1,55 @@
+.mise{
+    width: 100%;
+    height: 80%;
+    color: black;
+    justify-content: center;
+    justify-items: center;
+}
+.boite{
+    margin-top: 3%;
+    border: 1px solid black;
+    width: 35%;
+    height: 50%;
+    border-radius: 5px;
+    background-color: rgba(78, 235, 78, 0.849);
+    transition: 0.4s;
+}
+.boite h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    text-decoration: underline;   
+    transition: 0.4s;
+}
+.boite p{
+    padding-top: 10px;
+    margin-left: 15%;
+    width: 70%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    z-index: 100;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.boite button{
+    margin-top: 16%;
+    margin-left: 10%;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 10%;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: 0.4s;
+}
+#ouvrir:hover{
+    color: black;
+    background-color: aliceblue;
+    border: none;
+    transition: 0.4s;
+}
+#ouvrir:active{
+    background-color: black;
+    color: aliceblue;
+    transition: 0.3s;
+}
